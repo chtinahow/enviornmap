@@ -1,0 +1,35 @@
+
+  <nav>
+  <ul>
+      <li><a ng-click="park.setView(0)">Park</a>
+      </li>
+      <li><a ng-click="park.setView(1)">Map</a>
+      </li>
+      <li><a ng-click="park.setView(2)">Camping</a>
+      </li>
+      <li><a ng-click="park.setView(3)">Nature Info</a>
+      </li>
+      <li><a ng-click="park.setView(4)">Events</a>
+      </li>
+  </ul>
+</nav>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(0)">
+    Park page!
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(1)">
+    Map!
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(2)">
+    Camping!
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(3)">
+    Nature Info!
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(4)">
+    Events!
+</div>

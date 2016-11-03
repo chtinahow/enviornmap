@@ -1,0 +1,30 @@
+html{
+  background-color: #3399ff;
+}
+
+body{
+  overflow: auto;
+}
+
+
+.nav{
+  margin-right: 1em;
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.nav li{
+  border-radius:5px;
+  list-style-type: none;
+  font-size: 14px;
+  background-color: #b1b1b1;
+  font-family: sans-serif;
+  border: 1px solid black;
+  padding: 1em;
+}

@@ -7,3 +7,6 @@ Environmental web application for the RIT course SWEN-444 "Human Centered Requir
 
 ## Running a Local Webserver
 Run ```npm start```
+
+##Direct Navigation
+https://chtinahow.github.io/environmap/#/home

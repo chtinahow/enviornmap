@@ -17,7 +17,7 @@ parkNatureController.controller('natureInfoAnimalsController', ['$scope', '$http
 
     animalsController.animals = [];
 
-    $http.get('/content/nature_info/animals.json')
+    $http.get('content/nature_info/animals.json')
          .then(function(response) { animalsController.animals = response.data; })
          .catch(function(response) { console.log("Failed to get animals.json."); });
   }

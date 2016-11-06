@@ -11,3 +11,14 @@ parkNatureController.controller('natureController', ['$scope', function($scope) 
         return $scope.view == viewNum;
     }
 }]);
+
+parkNatureController.controller('natureInfoAnimalsController', ['$scope', '$http', function($scope, $http) {
+    var animalsController = this;
+
+    animalsController.animals = [];
+
+    $http.get('/content/nature_info/animals.json')
+         .then(function(response) { animalsController.animals = response.data; })
+         .catch(function(response) { console.log("Failed to get animals.json."); });
+  }
+]);

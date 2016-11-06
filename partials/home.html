@@ -1,11 +1,20 @@
 
   <nav class="nav">
   <ul>
-      <a ng-click="park.setView(0)"><li>Park</li></a>
-      <a ng-click="park.setView(1)"><li>Map</li></a>
-      <a ng-click="park.setView(2)"><li>Camping</li></a>
-      <a ng-click="park.setView(3)"><li>Nature Info</li></a>
-      <a ng-click="park.setView(4)"><li>Events</li></a>
+      <li ng-class="{active: park.isView(0)}"><a ng-click="park.setView(0)">Park</a></li>
+      <li ng-class="{active: park.isView(1)}"><a ng-click="park.setView(1)">Map</a></li>
+      <li ng-class="{active: park.isView(2)}"><a ng-click="park.setView(2)">Camping</a></li>
+      <li ng-class="{active: park.isView(3)}"><a ng-click="park.setView(3)">Nature Info</a>
+      <ul class="nested-ul">
+        <li>
+          example
+        </li>
+        <li>
+          example2
+        </li>
+      </ul></li>
+      <li ng-class="{active: park.isView(4)}"><a ng-click="park.setView(4)">Events</a></li>
+      <li ng-class="{active: park.isView(5)}"><a ng-click="park.setView(5)">Sightings</a></li>
   </ul>
 </nav>
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
@@ -27,4 +36,8 @@
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
 <div class="main-content" ng-show="park.isView(4)">
     Events!
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="park.isView(5)">
+    SightingS!
 </div>

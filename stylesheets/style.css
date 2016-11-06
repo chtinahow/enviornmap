@@ -36,7 +36,11 @@ body{
 .active{
   background-color: white !important;
   font-weight:bold;
-  color: #111111;
+  color: #111111 !important;
+}
+a{
+  color: #999;
+  text-decoration:none;
 }
 
 .nav li{

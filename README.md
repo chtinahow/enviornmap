@@ -1,4 +1,12 @@
-# Enviornmap
-Current Angular Version: 1.5.8
+# Environmap
+Environmental web application for the RIT course SWEN-444 "Human Centered Requirements and Design"
 
-Enviornmental web application for Usability
+## Dependencies
+* Node.js (https://nodejs.org/en/, debian package nodejs-legacy)
+* NPM (included with Node.js, debian package npm)
+
+## Running a Local Webserver
+Run ```npm start```
+
+##Direct Navigation
+https://chtinahow.github.io/environmap/#/home

@@ -18,6 +18,6 @@ directives.directive('myNav', function() {
       controller: Controller,
       controllerAs: 'nav',
       scope: true,
-      templateUrl: "partials/_nav.html"
+      templateUrl: "partials/nav.html"
   }
 });

@@ -15,14 +15,17 @@
       <li ng-class="{active: nav.isView(4)}"><a  ng-click="nav.setView(4)"href="#events">Events</a></li>
       <li ng-class="{active: nav.isView(5)}"><a  ng-click="nav.setView(5)"href="#sightings">Sightings</a></li>
   </ul>
-  <span id="bottom-content">
+  <div id="bottom-content">
     <img class="logo" src="assets/logo.png" />
-  </br>
-    Mailing Address:
-  P.O. Box 168
-  Yellowstone National Park, WY 82190-0168
-  Phone:
-  (307) 344-7381
-  Recorded information. For road and weather information, please dial 307-344-2117.
-  </span>
+    <h2 class="side-address-head">Mailing Address</h2>
+      <p class="side-address-copy">
+        P.O. Box 168 <br />
+        Yellowstone National Park, WY 82190-0168
+      </p>
+  <h2 class="side-address-head">Phone</h2>
+  <p class="side-address-copy">
+    (307) 344-7381 <br /><br />
+    Recorded information. For road and weather information, please dial:<br  /> (307) 344-2117.
+  </p>
+</div>
 </nav>

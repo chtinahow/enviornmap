@@ -32,8 +32,9 @@ body{
 }
 
 #bottom-content{
-  text-align: center;
   color: black;
+  border-top: 1px solid #f2f2f2;
+  padding: 20px;
 }
 .logo{
   display: block;
@@ -66,4 +67,16 @@ a{
   font-weight:bold;
   color: #111111;
   cursor: pointer;
+}
+
+.side-address-head{
+  color:#444444;
+  font-weight:bold;
+  font-size:18px;
+  margin: 20px 0px 0px 0px;
+}
+
+.side-address-copy{
+  margin:0px;
+  text-transform: none;
 }

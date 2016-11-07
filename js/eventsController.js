@@ -18,6 +18,8 @@ parkEventsController.controller('eventsController',
 
   $http.get('content/events/regularEvents.json')
        .then(function(response) { realEventController.regularEvents = response.data; console.log("GET regularEvents.json complete."); console.log(realEventController.regularEvents); })
-       .catch(function(response) { console.log("Failed to get events.json."); });
-
+       .catch(function(response) { console.log("Failed to get regularEvents.json."); });
+  $http.get('content/events/specialEvents.json')
+       .then(function(response) { realEventController.specialEvents = response.data; console.log("GET regularEvents.json complete."); console.log(realEventController.regularEvents); })
+       .catch(function(response) { console.log("Failed to get specialEvents.json."); });
 }]);

@@ -1,24 +1,16 @@
 [
     {
         "name": "Old Faithful",
-        "description": "Old Faithful is a classic Yellowstone attraction.
-        Old Faithful erupts every 35 to 120 minutes for 1 1/2 to 5 minutes.
-        Its maximum height ranges from 90 to 184 feet. It is not the biggest or
-        the most regular geyser in Yellowstone but it is the biggest regular geyser.",
+        "description": "Old Faithful is a classic Yellowstone attraction. Old Faithful erupts every 35 to 120 minutes for 1 1/2 to 5 minutes. Its maximum height ranges from 90 to 184 feet. It is not the biggest or the most regular geyser in Yellowstone but it is the biggest regular geyser.",
         "images":
         [ { "url": "content/nature_info/landmarks/images/old_faithful.jpg",
             "src_url": "http://live.indivisible.us/wp-content/uploads/2015/07/old-faithful.jpg" }]
     },
     {
         "name": "Mammoth Hot Springs",
+        "description": "Description of Mammoth Hot Springs goes here!",
         "images":
-        [ { "url": "content/nature_info/landmarks/images/hotspring.jpt",
+        [ { "url": "content/nature_info/landmarks/images/hotspring.jpg",
             "src_url": "https://www.nps.gov/yell/planyourvisit/images/688sunrise.jpg" } ]
-    },
-    {
-        "name": "",
-        "images":
-        [ { "url": "content/nature_info/landmarks/images",
-            "src_url": "" } ]
     }
 ]

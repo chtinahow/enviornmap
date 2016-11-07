@@ -102,3 +102,7 @@ a{
 .select-style select:focus {
     outline: none;
 }
+
+.form-ele{
+  margin-bottom: 30px;
+}

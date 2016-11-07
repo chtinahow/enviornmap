@@ -30,7 +30,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
   })
   .when('/events', {
     templateUrl: 'partials/events.html',
-    controller: 'eventsController as nature'
+    controller: 'eventsController as events'
   })
   .when('/sightings', {
     templateUrl: 'partials/sightings.html',

@@ -2,6 +2,7 @@
     Park Special Events
       <div ng-repeat="event in events.specialEvents">
         {{event.name}}
+
         {{event.date}}
           <div ng-repeat="image in event.images">
             <figure>
@@ -13,6 +14,7 @@
     Park Regular Events
         <div ng-repeat="event in events.regularEvents">
           {{event.name}}
+
           {{event.date}}
         </div>
 </div>

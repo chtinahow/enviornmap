@@ -83,7 +83,7 @@ a{
 
 .select-style {
     border: 1px solid #ccc;
-    width: 120px;
+    width: 175px;
     border-radius: 3px;
     overflow: hidden;
     background: #fafafa url("../assets/dropdown-icon.png") no-repeat 90% 50%;

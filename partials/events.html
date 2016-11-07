@@ -16,5 +16,10 @@
           {{event.name}}
 
           {{event.date}}
+          <div ng-repeat="image in event.images">
+            <figure>
+              <img ng-src="{{image.url}}" />
+            </figure>
+          </div>
         </div>
 </div>

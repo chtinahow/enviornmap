@@ -1,17 +1,20 @@
 [
     {
         "name": "Park Tour"
-        ,"images": [ { "url": "content/nature_info/mule_deer_male.jpg", "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-male.jpg" }, { "url": "content/nature_info/mule_deer_female.jpg", "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-female.jpg" } ]
+        ,"images": [ { "url": "content/events/images/regular_events/tour.jpg",
+        "src_url": "http://www.austinadventures.com/assets/5943356180_c072d1778a.jpg" } ]
         ,"date": "M/W/F"
     },
     {
         "name": "Cowboy Show",
-        "images": [ { "url": "content/nature_info/yellow_bellied_marmot.jpg", "src_url": "https://en.wikipedia.org/wiki/File:Marmota_flaviventris_%28Yellow_Bellied_Marmot%29,_Yosemite_NP_-_Diliff.jpg" } ]
+        "images": [ { "url": "content/events/images/regular_events/cowboy.jpg",
+        "src_url": "http://d1njyp8tsu122i.cloudfront.net/wp-content/uploads/Cowboy-music_DP_680-612x353.jpg" } ]
         ,"date": "T/Th"
     },
     {
         "name": "Animal Habitat Presentation",
-        "images": [ { "url": "content/nature_info/mule_deer_male.jpg", "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-male.jpg" }, { "url": "content/nature_info/mule_deer_female.jpg", "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-female.jpg" } ]
+        "images": [ { "url": "content/events/images/regular_events/animal_habitat.jpg",
+        "src_url": "http://www.nathab.com/uploaded-files/carousels/TRIPS/Classic-Yellowstone/US-National-Parks-Classic-Yellowstone-1-mountains.jpg" }]
         ,"date": "F"
     }
 ]

@@ -5,7 +5,7 @@ var myApp = angular.module('environmap', [
   'campingInfoController',
   'parkEventsController',
   'parkMapController',
-  'parkNatureController',
+  'nature',
   'directives'
 ])
 
@@ -25,8 +25,19 @@ myApp.config(['$routeProvider', function($routeProvider) {
     controller: 'campingController as camping'
   })
   .when('/nature', {
-    templateUrl: 'partials/nature.html',
-    controller: 'natureController as nature'
+    redirectTo: '/nature/animals'
+  })
+  .when('/nature/animals', {
+    templateUrl: 'partials/nature_animals.html',
+    controller: 'natureAnimalsController as controller'
+  })
+  .when('/nature/plants', {
+    templateUrl: 'partials/nature_plants.html',
+    controller: 'naturePlantsController as controller'
+  })
+  .when('/nature/landmarks', {
+    templateUrl: 'partials/nature_landmarks.html',
+    controller: 'natureLandmarksController as controller'
   })
   .when('/events', {
     templateUrl: 'partials/events.html',

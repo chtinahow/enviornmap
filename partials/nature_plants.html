@@ -1,0 +1,11 @@
+<div class="main-content">
+  <div ng-repeat="plant in controller.plants">
+    <h1>{{plant.name}}</h1>
+    <div ng-repeat="image in plant.images">
+      <figure>
+        <img ng-src="{{image.url}}" />
+        <figcaption>Source: <a href="{{image.src_url}}">{{image.src_url}}</a></figcaption>
+      </figure>
+    </div>
+  </div>
+</div>

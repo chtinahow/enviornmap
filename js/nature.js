@@ -5,7 +5,7 @@ nature.controller('natureAnimalsController', ['$scope', '$http', function($scope
 
     controller.animals = [];
 
-    $http.get('content/nature/animals.json')
+    $http.get('content/nature/animals/animals.json')
          .then(function(response) { controller.animals = response.data; })
          .catch(function(response) { console.log("Failed to get animals.json."); });
   }
@@ -16,7 +16,7 @@ nature.controller('naturePlantsController', ['$scope', '$http', function($scope,
 
     controller.plants = [];
 
-    $http.get('content/nature/plants.json')
+    $http.get('content/nature/plants/plants.json')
          .then(function(response) { controller.plants = response.data; })
          .catch(function(response) { console.log("Failed to get plants.json."); });
   }

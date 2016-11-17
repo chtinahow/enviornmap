@@ -1,4 +1,5 @@
 <div class="main-content">
+  <p ng-show="sightingSubmissionSuccess">Sighting submitted!</p>
     <form>
       <p>
         Animal Sighted
@@ -29,5 +30,8 @@
       Time of Sighting
     </p>
     <input type="text" />
+    <div>
+      <button type="submit" ng-click="onSightingSubmission()">Submit</button>
+    </div>
     </form>
 </div>

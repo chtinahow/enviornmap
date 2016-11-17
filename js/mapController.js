@@ -10,4 +10,12 @@ parkMapController.controller('mapController', ['$scope', function($scope) {
     this.isView = function(viewNum){
         return $scope.view == viewNum;
     }
+
+    angular.extend($scope, {
+      mapCenter: {
+        lat: 44.4280,
+        lng: -110.5885,
+        zoom: 10
+      }
+    });
 }]);

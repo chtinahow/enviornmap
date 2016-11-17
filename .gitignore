@@ -1,3 +1,4 @@
+/node_modules/
 /npm-debug.log
 
 # Ignore vim recovery files

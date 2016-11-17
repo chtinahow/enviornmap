@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "description": "Environmental web application for Usability",
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8",
+    "bower": "^1.7.7",
     "connect": "^3.5.0",
     "serve-static": "^1.11.1"
   },
-  "devDependencies": {},
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chtinahow/environmap.git"

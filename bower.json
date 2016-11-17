@@ -1,0 +1,13 @@
+{
+  "name": "environmap",
+  "version": "0.0.0",
+  "description": "Environmental web application for Usability",
+  "homepage": "https://github.com/chtinahow/environmap.git",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x"
+  }
+}

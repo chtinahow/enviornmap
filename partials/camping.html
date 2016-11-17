@@ -1,5 +1,6 @@
 <div class="main-content">
 <img ng-src="content/camping/campgrounds.png"  />
+<p ng-show="submitReservationSuccess">Camping reservation confirmed!</p>
 
     <p>
       Email
@@ -34,6 +35,6 @@
   </p>
   <input type="text" />
   <div>
-    <button type="submit">Reserve Site</button>
+    <button type="submit" ng-click="onSubmitReservation()">Reserve Site</button>
   </div>
 </div>

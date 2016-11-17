@@ -2,6 +2,7 @@ var campingInfoController = angular.module('campingInfoController', []);
 
 campingInfoController.controller('campingController', ['$scope', function($scope) {
     $scope.view = 0;
+    this.submitReservationSuccess = false;
 
     this.setView = function(newView){
         $scope.view = newView;
@@ -9,5 +10,9 @@ campingInfoController.controller('campingController', ['$scope', function($scope
 
     this.isView = function(viewNum){
         return $scope.view == viewNum;
+    }
+
+    $scope.onSubmitReservation = function() {
+      this.submitReservationSuccess = true;
     }
 }]);

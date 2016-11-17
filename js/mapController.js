@@ -1,4 +1,4 @@
-var parkMapController = angular.module('parkMapController', []);
+var parkMapController = angular.module('parkMapController', ['ui-leaflet']);
 
 parkMapController.controller('mapController', ['$scope', function($scope) {
     $scope.view = 0;

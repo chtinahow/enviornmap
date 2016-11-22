@@ -1,40 +1,39 @@
 <div class="main-content">
 <img ng-src="content/camping/campgrounds.png"  />
-<p ng-show="submitReservationSuccess">Camping reservation confirmed!</p>
-
-    <p>
-      Email
-    </p>
-    <input type="text" /></br>
-    <p>
-      Camping Site
-    </p>
-    <div class="select-style">
-      <select>
-      <option value="A-1">
-        Madison Junction - 1
-      </option>
-      <option value="A-2">
-        Madison Junction - 2
-      </option>
-      <option value="A-5">
-        Madison Junction - 5
-      </option>
-      <option value="B-7">
-        Lewis Lake -7
-      </option>
-    </select>
-  </div>
-
-  <p>
-    From
-  </p>
-  <input type="text" />
-  <p>
-    To
-  </p>
-  <input type="text" />
-  <div>
-    <button type="submit" ng-click="onSubmitReservation()">Reserve Site</button>
-  </div>
+<div class="alert" ng-class="'alert-' + alert.type" role="alert" ng-repeat="alert in alerts">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button>
+  {{alert.msg}}
+</div>
+  <form ng-submit="onSubmitReservation()">
+    <div class="form-group">
+      <label for="campingReservationEmail">Email</label>
+      <input type="email" class="form-control" id="campingReservationEmail" placeholder="Email"/>
+    </div>
+    <div class="form-group">
+      <label for="campingReservationSiteSelection">Camping Site</label>
+      <select class="form-control" id="campingReservationSiteSelection">
+        <option value="A-1">
+          Madison Junction - 1
+        </option>
+        <option value="A-2">
+          Madison Junction - 2
+        </option>
+        <option value="A-5">
+          Madison Junction - 5
+        </option>
+        <option value="B-7">
+          Lewis Lake -7
+        </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="campingReservationFrom">From</label>
+      <input type="datetime-local" class="form-control" id="campingReservationFrom" />
+    </div>
+    <div class="form-group">
+      <label for="campingReservationTo">To</label>
+      <input type="datetime-local" class="form-control" id="campingReservationTo" />
+    </div>
+    <button type="submit" class="btn btn-default">Reserve Site</button>
+  </form>
 </div>

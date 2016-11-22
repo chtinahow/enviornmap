@@ -9,14 +9,13 @@ nav.directive('myNav', function() {
   }
 });
 
-nav.controller('navController', ['$scope', function($scope) {
-    this.view = 0;
+nav.controller('navController', ['$scope', '$route', function($scope, $route) {
+  $scope.isActiveSection = function(activeSection) {
+    return $route.current.activeSection == activeSection;
+  }
 
-    this.setView = function(newView) {
-        this.view = newView;
-    };
-
-    this.isView = function(viewNum) {
-        return this.view == viewNum;
-    };
+  $scope.isActiveSectionPrefix = function(activeSectionPrefix) {
+    var activeSection = $route.current.activeSection;
+    return activeSection && activeSection.startsWith(activeSectionPrefix);
+  }
 }]);

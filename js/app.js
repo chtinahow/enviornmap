@@ -6,7 +6,7 @@ var myApp = angular.module('environmap', [
   'parkEventsController',
   'parkMapController',
   'nature',
-  'directives'
+  'nav'
 ])
 
 

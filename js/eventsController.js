@@ -2,15 +2,6 @@ var parkEventsController = angular.module('parkEventsController', []);
 
 parkEventsController.controller('eventsController',
   ['$scope', '$http', function($scope, $http) {
-  $scope.view = 0;
-  this.setView = function(newView){
-      $scope.view = newView;
-  },
-
-  this.isView = function(viewNum){
-      return $scope.view == viewNum;
-  }
-
   var realEventController = this;
 
   realEventController.specialEvents = [];

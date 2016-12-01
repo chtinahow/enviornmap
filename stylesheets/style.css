@@ -1,13 +1,15 @@
-html{
+body{
   background-color: #dfefff;
   font-family: 'Roboto', sans-serif;
-}
-
-body{
+  font-size: 16px;
+  color: black;
   overflow: auto;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 .main-content{
-  margin-left: 325px;
+    margin-left: 325px;
+    margin-right: 20px;
 }
 .nested-ul{
   display: none;
@@ -101,4 +103,13 @@ a{
 
 .select-style select:focus {
     outline: none;
+}
+
+form {
+    padding: 15px;
+    background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
 }

@@ -3,6 +3,7 @@ var parkSightingsController = angular.module('parkSightingsController', []);
 parkSightingsController.controller('sightingsController', ['$scope', function($scope) {
     $scope.alerts = [];
     var nextAlertID = 0;
+    var sight;
 
     $scope.onSubmitSighting = function() {
       var msg;

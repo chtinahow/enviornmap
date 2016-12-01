@@ -1,15 +1,14 @@
 {
   "name": "environmap",
   "version": "0.0.0",
-  "description": "Enviornmental web application for Usability",
-  "main": "index.js",
+  "description": "Environmental web application for Usability",
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8"
+    "bower": "^1.7.7",
+    "connect": "^3.5.0",
+    "serve-static": "^1.11.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",

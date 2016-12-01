@@ -1,4 +1,5 @@
 <div class="main-content">
+<<<<<<< HEAD
     Report sighting of <button ng-click="sightings.setView(1)">Animal</button>
     <button ng-click="sightings.setView(0)">Plant</button> </br>
     </br>
@@ -8,6 +9,16 @@
             <div class="form-ele">
                 <label for="animal">Animal Sighted </label>
                 <select name="animal" id="animal" style="margin-left:200px;">
+=======
+  <div class="alert" ng-class="'alert-' + alert.type" role="alert" ng-repeat="alert in alerts">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button>
+    {{alert.msg}}
+  </div>
+  <form ng-submit="onSubmitSighting()">
+    <div class="form-group">
+      <label for="sightingsAnimalSelection">Animal Sighted</label>
+      <select class="form-control" id="sightingsAnimalSelection">
+>>>>>>> d681e4e38ddf0bbe22cf8c2f21f7d1d385169031
         <option value="bear">
           Bear
         </option>
@@ -21,6 +32,7 @@
           Rabbit
         </option>
       </select>
+<<<<<<< HEAD
             </div>
 
 
@@ -64,4 +76,21 @@
     </form>
 
 
+=======
+    </div>
+    <div class="form-group">
+      <label for="sightingsLatitude">Latitude</label>
+      <input type="number" class="form-control" id="sightingsLatitude" />
+    </div>
+    <div class="form-group">
+      <label for="sightingsLongitude">Longitude</label>
+      <input type="number" class="form-control" id="sightingsLongitude" />
+    </div>
+    <div class="form-group">
+      <label for="sightingsTime">Time of Sighting</label>
+      <input type="datetime-local" class="form-control" id="sightingsTime" />
+    </div>
+    <button type="submit" class="btn btn-default">Submit Sighting</button>
+  </form>
+>>>>>>> d681e4e38ddf0bbe22cf8c2f21f7d1d385169031
 </div>

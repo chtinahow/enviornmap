@@ -1,0 +1,12 @@
+<div class="main-content">
+  <div ng-repeat="landmark in controller.landmarks">
+    <h1>{{landmark.name}}</h1>
+    <div ng-repeat="image in landmark.images">
+      <figure>
+        <img ng-src="{{image.url}}" />
+        <figcaption>Source: <a href="{{image.src_url}}">{{image.src_url}}</a></figcaption>
+      </figure>
+    </div>
+    <p>{{landmark.description}}</p>
+  </div>
+</div>

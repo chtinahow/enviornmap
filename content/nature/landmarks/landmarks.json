@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Old Faithful",
+        "description": "Old Faithful is a classic Yellowstone attraction. Old Faithful erupts every 35 to 120 minutes for 1 1/2 to 5 minutes. Its maximum height ranges from 90 to 184 feet. It is not the biggest or the most regular geyser in Yellowstone but it is the biggest regular geyser.",
+        "images":
+        [ { "url": "content/nature/landmarks/images/old_faithful.jpg",
+            "src_url": "http://live.indivisible.us/wp-content/uploads/2015/07/old-faithful.jpg" }]
+    },
+    {
+        "name": "Mammoth Hot Springs",
+        "description": "Mammoth Hot Springs is a large complex of hot springs on a hill of travertine in Yellowstone National Park adjacent to Fort Yellowstone and the Mammoth Hot Springs Historic District. It was created over thousands of years as hot water from the spring cooled and deposited calcium carbonate (over two tons flow into Mammoth each day in a solution). Because of the huge amount of geothermal vents, travertine flourishes. Although these springs lie outside the caldera boundary, their energy has been attributed to the same magmatic system that fuels other Yellowstone geothermal areas. (Wikipedia)",
+        "images":
+        [ { "url": "content/nature/landmarks/images/hotspring.jpg",
+            "src_url": "https://www.nps.gov/yell/planyourvisit/images/688sunrise.jpg" } ]
+    }
+]

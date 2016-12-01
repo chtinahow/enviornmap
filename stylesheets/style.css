@@ -1,13 +1,15 @@
-html{
+body{
   background-color: #dfefff;
   font-family: 'Roboto', sans-serif;
-}
-
-body{
+  font-size: 16px;
+  color: black;
   overflow: auto;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 .main-content{
-  margin-left: 325px;
+    margin-left: 325px;
+    margin-right: 20px;
 }
 .nested-ul{
   display: none;
@@ -83,7 +85,7 @@ a{
 
 .select-style {
     border: 1px solid #ccc;
-    width: 120px;
+    width: 175px;
     border-radius: 3px;
     overflow: hidden;
     background: #fafafa url("../assets/dropdown-icon.png") no-repeat 90% 50%;
@@ -103,6 +105,17 @@ a{
     outline: none;
 }
 
+<<<<<<< HEAD
 .form-ele{
   margin-bottom: 30px;
 }
+=======
+form {
+    padding: 15px;
+    background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+>>>>>>> d681e4e38ddf0bbe22cf8c2f21f7d1d385169031

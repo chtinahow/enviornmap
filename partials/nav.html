@@ -4,11 +4,13 @@
       <li><a ng-class="{active: isActiveSection('map')}" href="#map">Map</a></li>
       <li><a ng-class="{active: isActiveSection('camping')}" href="#camping">Camping</a></li>
       <li><a ng-class="{active: isActiveSectionPrefix('nature')}" href="#nature">Nature Info</a>
-        <ul class="nested-ul">
-          <li><a ng-class="{active: isActiveSection('nature-animals')}" href="#nature/animals">Animals</a></li>
-          <li><a ng-class="{active: isActiveSection('nature-plants')}" href="#nature/plants">Plants</a></li>
-          <li><a ng-class="{active: isActiveSection('nature-landmarks')}" href="#nature/landmarks">Landmarks</a></li>
-        </ul>
+        <div class="nested-ul">
+          <ul>
+            <li><a ng-class="{active: isActiveSection('nature-animals')}" href="#nature/animals">Animals</a></li>
+            <li><a ng-class="{active: isActiveSection('nature-plants')}" href="#nature/plants">Plants</a></li>
+            <li><a ng-class="{active: isActiveSection('nature-landmarks')}" href="#nature/landmarks">Landmarks</a></li>
+          </ul>
+        </div>
       </li>
       <li><a ng-class="{active: isActiveSection('events')}" href="#events">Events</a></li>
       <li><a ng-class="{active: isActiveSection('sightings')}" href="#sightings">Sightings</a></li>

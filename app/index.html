@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang = "en" ng-app="environmap">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Environmap</title>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="bower_components/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
+    <script type="text/javascript" src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
+    <script type="text/javascript" src="bower_components/ui-leaflet/dist/ui-leaflet.js"></script>
+    <script type="text/javascript" src="environmap.module.js"></script>
+    <script type="text/javascript" src="park/park.module.js"></script>
+    <script type="text/javascript" src="camping/camping.module.js"></script>
+    <script type="text/javascript" src="events/events.module.js"></script>
+    <script type="text/javascript" src="map/map.module.js"></script>
+    <script type="text/javascript" src="nature/nature.module.js"></script>
+    <script type="text/javascript" src="sightings/sightings.module.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="nav/nav.module.js"></script>
+    <link rel="stylesheet" href="environmap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+  </head>
+  <body>
+    <my-nav></my-nav>
+    <div class="main" ng-view></div>
+
+    <footer>
+      <!-- <p>Copyright 2015. All Rights Reserved</p> -->
+    </footer>
+  </body>
+</html>

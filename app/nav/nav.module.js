@@ -7,7 +7,7 @@ nav.directive('myNav', function() {
     restrict: "E",
     controller: 'navController',
     scope: true,
-    templateUrl: "partials/nav.html"
+    templateUrl: "nav/nav.template.html"
   }
 });
 

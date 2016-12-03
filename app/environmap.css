@@ -90,7 +90,7 @@ a {
   width: 175px;
   border-radius: 3px;
   overflow: hidden;
-  background: #fafafa url("../assets/dropdown-icon.png") no-repeat 90% 50%;
+  background: #fafafa url("images/dropdown-icon.png") no-repeat 90% 50%;
 }
 
 .select-style select {

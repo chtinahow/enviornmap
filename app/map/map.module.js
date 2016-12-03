@@ -8,7 +8,7 @@ map.controller('mapController', ['$scope', function($scope) {
   };
 
   var animalIcon = angular.copy(abstractDefaultIcon);
-  animalIcon.iconUrl = "icons/deer.png";
+  animalIcon.iconUrl = "map/icons/deer.png";
 
   var deerMarker1 = {
     lat: 44.4270,

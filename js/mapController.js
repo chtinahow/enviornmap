@@ -36,12 +36,11 @@ parkMapController.controller('mapController', ['$scope', function($scope) {
       icon: grassIcon
     };
 
-    angular.extend($scope, {
-      mapCenter: {
+    $scope.mapCenter = {
         lat: 44.4280,
         lng: -110.5885,
         zoom: 10
-      },
-      markers: [deerMarker1, deerMarker2, rossBentGrassMarker1, rossBentGrassMarker2]
-    });
+    };
+
+    $scope.markers = [deerMarker1, deerMarker2, rossBentGrassMarker1, rossBentGrassMarker2];
 }]);

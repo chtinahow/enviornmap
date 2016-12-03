@@ -30,9 +30,6 @@ parkMapController.controller('mapController', ['$scope', function($scope) {
         lng: -110.5885,
         zoom: 10
       },
-      markers: {
-	deerMarker1: deerMarker1,
-	deerMarker2: deerMarker2
-      }
+      markers: [deerMarker1, deerMarker2]
     });
 }]);

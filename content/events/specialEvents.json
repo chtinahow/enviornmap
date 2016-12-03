@@ -1,21 +1,20 @@
 [
-    {
-        "name": "Celebrate 100 Years of the National Park Service!",
-        "images": [ { "url": "content/events/images/special_events/100_years.jpg",
-        "src_url": "https://nz.usembassy.gov/wp-content/uploads/sites/13/2016/01/100years750.jpg" }
-        ]
-        ,"date": "August 25th to November 25th"
-    },
-    {
-        "name": "Veteran's Day Free Admission!",
-        "images": [ { "url": "content/events/images/special_events/veterans_day.jpg",
-        "src_url": "https://cdn4.dogonews.com/images/fec30948-adbb-4ba2-be22-13f629de5d1e/veterans-day-image.jpg" } ]
-        ,"date": "November 11th"
-    },
-    {
-        "name": "Yellowstone Ski Festival!",
-        "images": [ { "url": "content/events/images/special_events/ski.jpg",
-        "src_url": "http://www.skirunbikemt.com/uploads/3/7/6/9/37692819/2900204.jpg?250"}]
-        ,"date": "December 15th - December 31st"
-    }
+  {
+    "name": "Celebrate 100 Years of the National Park Service!",
+    "images": [ { "url": "content/events/images/special_events/100_years.jpg",
+		  "src_url": "https://nz.usembassy.gov/wp-content/uploads/sites/13/2016/01/100years750.jpg" } ],
+    "date": "August 25th to November 25th"
+  },
+  {
+    "name": "Veteran's Day Free Admission!",
+    "images": [ { "url": "content/events/images/special_events/veterans_day.jpg",
+		  "src_url": "https://cdn4.dogonews.com/images/fec30948-adbb-4ba2-be22-13f629de5d1e/veterans-day-image.jpg" } ],
+    "date": "November 11th"
+  },
+  {
+    "name": "Yellowstone Ski Festival!",
+    "images": [ { "url": "content/events/images/special_events/ski.jpg",
+		  "src_url": "http://www.skirunbikemt.com/uploads/3/7/6/9/37692819/2900204.jpg?250" } ],
+    "date": "December 15th - December 31st"
+  }
 ]

@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #dfefff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -7,22 +7,22 @@ body{
   margin-top: 20px;
   margin-left: 10px;
 }
-.main-content{
-    margin-left: 325px;
-    margin-right: 20px;
+.main-content {
+  margin-left: 325px;
+  margin-right: 20px;
 }
-.nested-ul{
+.nested-ul {
   display: none;
   background-color: white;
 }
-.nav li:hover .nested-ul{
-    display: inline-block;
-    background-color: white;
-    box-shadow: none;
-    position: absolute;
-    top: 6.8em;
+.nav li:hover .nested-ul {
+  display: inline-block;
+  background-color: white;
+  box-shadow: none;
+  position: absolute;
+  top: 6.8em;
 }
-.nav{
+.nav {
   margin-right: 1em;
   width: 250px;
   height: 100%;
@@ -35,85 +35,85 @@ body{
   height:auto;
 }
 
-#bottom-content{
+#bottom-content {
   color: black;
   border-top: 1px solid #f2f2f2;
   padding: 20px;
 }
-.logo{
+.logo {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-.nav ul{
+.nav ul {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   padding: 10px;
 }
-.active{
+.active {
   background-color: white !important;
   font-weight:bold;
   color: #111111 !important;
 }
-a{
+a {
   color: #999;
   text-decoration:none;
 }
 
-.nav li{
+.nav li {
   list-style-type: none;
   font-size: 14px;
   padding: 1em;
 }
 
-.nav li:hover{
+.nav li:hover {
   font-weight:bold;
   color: #111111;
   cursor: pointer;
 }
 
-.side-address-head{
+.side-address-head {
   color:#444444;
   font-weight:bold;
   font-size:18px;
   margin: 20px 0px 0px 0px;
 }
 
-.side-address-copy{
+.side-address-copy {
   margin:0px;
   text-transform: none;
 }
 
 .select-style {
-    border: 1px solid #ccc;
-    width: 175px;
-    border-radius: 3px;
-    overflow: hidden;
-    background: #fafafa url("../assets/dropdown-icon.png") no-repeat 90% 50%;
+  border: 1px solid #ccc;
+  width: 175px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fafafa url("../assets/dropdown-icon.png") no-repeat 90% 50%;
 }
 
 .select-style select {
-    padding: 5px 8px;
-    width: 130%;
-    border: none;
-    box-shadow: none;
-    background: transparent;
-    background-image: none;
-    -webkit-appearance: none;
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
 }
 
 .select-style select:focus {
-    outline: none;
+  outline: none;
 }
 
 form {
-    padding: 15px;
-    background-color: white;
-    border-color: #ddd;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
+  padding: 15px;
+  background-color: white;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
 }
 
 
@@ -127,7 +127,9 @@ form {
 }
 
 /* Hide default HTML checkbox */
-.switch input {display:none;}
+.switch input {
+  display:none;
+}
 
 /* The slider */
 .slider {

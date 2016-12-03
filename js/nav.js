@@ -2,10 +2,10 @@ var nav = angular.module('nav', []);
 
 nav.directive('myNav', function() {
   return {
-      restrict: "E",
-      controller: 'navController',
-      scope: true,
-      templateUrl: "partials/nav.html"
+    restrict: "E",
+    controller: 'navController',
+    scope: true,
+    templateUrl: "partials/nav.html"
   }
 });
 

@@ -1,25 +1,23 @@
 <div class="main-content">
-    Park Special Events
-      <div ng-repeat="event in events.specialEvents">
-        {{event.name}}
+  Park Special Events
+  <div ng-repeat="event in events.specialEvents">
+    {{event.name}}
+    {{event.date}}
+    <div ng-repeat="image in event.images">
+      <figure>
+        <img ng-src="{{image.url}}" />
+      </figure>
+    </div>
+  </div>
 
-        {{event.date}}
-          <div ng-repeat="image in event.images">
-            <figure>
-              <img ng-src="{{image.url}}" />
-            </figure>
-          </div>
-      </div>
-
-    Park Regular Events
-        <div ng-repeat="event in events.regularEvents">
-          {{event.name}}
-
-          {{event.date}}
-          <div ng-repeat="image in event.images">
-            <figure>
-              <img ng-src="{{image.url}}" />
-            </figure>
-          </div>
-        </div>
+  Park Regular Events
+  <div ng-repeat="event in events.regularEvents">
+    {{event.name}}
+    {{event.date}}
+    <div ng-repeat="image in event.images">
+      <figure>
+        <img ng-src="{{image.url}}" />
+      </figure>
+    </div>
+  </div>
 </div>

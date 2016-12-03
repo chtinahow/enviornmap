@@ -3,3 +3,5 @@
 
 # Ignore vim recovery files
 *~
+# Ignore emacs recovery files
+\#*\#

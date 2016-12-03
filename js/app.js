@@ -1,3 +1,5 @@
+'use strict';
+
 var myApp = angular.module('environmap', [
   'ngRoute',
   'homeController',

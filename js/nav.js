@@ -1,3 +1,5 @@
+'use strict';
+
 var nav = angular.module('nav', []);
 
 nav.directive('myNav', function() {

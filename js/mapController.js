@@ -1,3 +1,5 @@
+'use strict';
+
 var parkMapController = angular.module('parkMapController', ['ui-leaflet']);
 
 parkMapController.controller('mapController', ['$scope', function($scope) {

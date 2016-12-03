@@ -1,3 +1,5 @@
+'use strict';
+
 var campingInfoController = angular.module('campingInfoController', []);
 
 campingInfoController.controller('campingController', ['$scope', function($scope) {

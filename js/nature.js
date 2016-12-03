@@ -1,3 +1,5 @@
+'use strict';
+
 var nature = angular.module('nature', []);
 
 nature.controller('natureAnimalsController', ['$scope', '$http', function($scope, $http) {

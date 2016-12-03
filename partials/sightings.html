@@ -3,8 +3,15 @@
     <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button>
     {{alert.msg}}
   </div>
+
   <form ng-submit="onSubmitSighting()">
-    <div class="form-group">
+    Animal
+    <label class="switch">
+      <input type="checkbox" ng-model="type">
+      <div class="slider round"></div>
+    </label>
+    Plant </br> </br>
+    <div ng-show="type === Types.ANIMAL" class="form-group">
       <label for="sightingsAnimalSelection">Animal Sighted</label>
       <select class="form-control" id="sightingsAnimalSelection">
         <option value="bear">
@@ -16,8 +23,19 @@
         <option value="bird">
           Bird
         </option>
-        <option value="Ryan">
-          Ryan
+      </select>
+    </div>
+    <div ng-show="type === Types.PLANT" class="form-group">
+      <label for="sightingsAnimalSelection">Plant Sighted</label>
+      <select class="form-control" id="sightingsAnimalSelection">
+        <option value="shrub">
+          Shrub
+        </option>
+        <option value="tree">
+          Tree
+        </option>
+        <option value="bush">
+          Bush
         </option>
       </select>
     </div>

@@ -1,18 +1,19 @@
 <div class="main-content">
-    <div class="alert" ng-class="'alert-' + alert.type" role="alert" ng-repeat="alert in alerts">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button> {{alert.msg}}
-    </div>
+  <div class="alert" ng-class="'alert-' + alert.type" role="alert" ng-repeat="alert in alerts">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button>
+    {{alert.msg}}
+  </div>
 
-    <form ng-submit="onSubmitSighting()">
-        Animal
-        <label class="switch">
-          <input type="checkbox" ng-model="sight">
-          <div class="slider round"></div>
-        </label>
-        Plant </br> </br>
-        <div ng-show="sight" class="form-group">
-            <label for="sightingsAnimalSelection">Animal Sighted</label>
-            <select class="form-control" id="sightingsAnimalSelection">
+  <form ng-submit="onSubmitSighting()">
+    Animal
+    <label class="switch">
+      <input type="checkbox" ng-model="sight">
+      <div class="slider round"></div>
+    </label>
+    Plant </br> </br>
+    <div ng-show="sight" class="form-group">
+      <label for="sightingsAnimalSelection">Animal Sighted</label>
+      <select class="form-control" id="sightingsAnimalSelection">
         <option value="bear">
           Bear
         </option>
@@ -23,10 +24,10 @@
           Bird
         </option>
       </select>
-        </div>
-        <div ng-show="!sight" class="form-group">
-            <label for="sightingsAnimalSelection">Plant Sighted</label>
-            <select class="form-control" id="sightingsAnimalSelection">
+    </div>
+    <div ng-show="!sight" class="form-group">
+      <label for="sightingsAnimalSelection">Plant Sighted</label>
+      <select class="form-control" id="sightingsAnimalSelection">
         <option value="shrub">
           Shrub
         </option>
@@ -37,19 +38,19 @@
           Bush
         </option>
       </select>
-        </div>
-        <div class="form-group">
-            <label for="sightingsLatitude">Latitude</label>
-            <input type="number" class="form-control" id="sightingsLatitude" />
-        </div>
-        <div class="form-group">
-            <label for="sightingsLongitude">Longitude</label>
-            <input type="number" class="form-control" id="sightingsLongitude" />
-        </div>
-        <div class="form-group">
-            <label for="sightingsTime">Time of Sighting</label>
-            <input type="datetime-local" class="form-control" id="sightingsTime" />
-        </div>
-        <button type="submit" class="btn btn-default">Submit Sighting</button>
-    </form>
+    </div>
+    <div class="form-group">
+      <label for="sightingsLatitude">Latitude</label>
+      <input type="number" class="form-control" id="sightingsLatitude" />
+    </div>
+    <div class="form-group">
+      <label for="sightingsLongitude">Longitude</label>
+      <input type="number" class="form-control" id="sightingsLongitude" />
+    </div>
+    <div class="form-group">
+      <label for="sightingsTime">Time of Sighting</label>
+      <input type="datetime-local" class="form-control" id="sightingsTime" />
+    </div>
+    <button type="submit" class="btn btn-default">Submit Sighting</button>
+  </form>
 </div>

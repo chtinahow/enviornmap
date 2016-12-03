@@ -2,11 +2,11 @@
 
 var myApp = angular.module('environmap', [
   'ngRoute',
-  'homeController',
-  'parkSightingsController',
-  'campingInfoController',
-  'parkEventsController',
-  'parkMapController',
+  'park',
+  'sightings',
+  'camping',
+  'events',
+  'map',
   'nature',
   'nav'
 ]);

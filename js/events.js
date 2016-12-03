@@ -1,8 +1,8 @@
 'use strict';
 
-var parkEventsController = angular.module('parkEventsController', []);
+var events = angular.module('events', []);
 
-parkEventsController.controller('eventsController', ['$scope', '$http', function($scope, $http) {
+events.controller('eventsController', ['$scope', '$http', function($scope, $http) {
   var realEventController = this;
 
   realEventController.specialEvents = [];

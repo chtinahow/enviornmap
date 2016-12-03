@@ -1,29 +1,26 @@
 'use strict';
 
-var parkSightingsController = angular.module('parkSightingsController', []);
+var camping = angular.module('camping', []);
 
-parkSightingsController.controller('sightingsController', ['$scope', function($scope) {
+camping.controller('campingController', ['$scope', function($scope) {
   $scope.alerts = [];
   var nextAlertID = 0;
-  $scope.Types = {
-    ANIMAL: false,
-    PLANT: true
-  };
-  $scope.type = $scope.Types.ANIMAL;
+  this.submitReservationSuccess = false;
 
-  $scope.onSubmitSighting = function() {
+  $scope.onSubmitReservation = function() {
     var msg;
     var type;
     if (nextAlertID % 2 == 0) {
-      msg = "Sighting successfully submitted!";
+      msg = "Camping reservation confirmed!";
       type = "success";
     } else {
-      msg = "Sighting submission failed. Please try again later.";
+      msg = "Failed to make a camping reservation. Please try again later.";
       type = "danger";
     }
+
     $scope.alerts = [{id: nextAlertID, type: type, msg: msg}];
     nextAlertID++;
-  };
+  }
 
   $scope.onCloseAlert = function(alertID) {
     $scope.alerts = $scope.alerts.filter(function(alert) {

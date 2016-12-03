@@ -1,8 +1,8 @@
 'use strict';
 
-var parkMapController = angular.module('parkMapController', ['ui-leaflet']);
+var map = angular.module('map', ['ui-leaflet']);
 
-parkMapController.controller('mapController', ['$scope', function($scope) {
+map.controller('mapController', ['$scope', function($scope) {
   var abstractDefaultIcon = {
     iconSize: [32,37]
   };

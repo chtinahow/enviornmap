@@ -29,5 +29,5 @@ parkSightingsController.controller('sightingsController', ['$scope', function($s
     $scope.alerts = $scope.alerts.filter(function(alert) {
       return alert.id != alertID;
     });
-  }
+  };
 }]);

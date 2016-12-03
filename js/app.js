@@ -9,7 +9,7 @@ var myApp = angular.module('environmap', [
   'parkMapController',
   'nature',
   'nav'
-])
+]);
 
 myApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.

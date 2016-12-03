@@ -3,7 +3,11 @@ var parkSightingsController = angular.module('parkSightingsController', []);
 parkSightingsController.controller('sightingsController', ['$scope', function($scope) {
     $scope.alerts = [];
     var nextAlertID = 0;
-    var sight;
+    $scope.Types = {
+      ANIMAL: false,
+      PLANT: true
+    };
+    $scope.type = $scope.Types.ANIMAL;
 
     $scope.onSubmitSighting = function() {
       var msg;

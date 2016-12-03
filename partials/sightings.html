@@ -7,11 +7,11 @@
   <form ng-submit="onSubmitSighting()">
     Animal
     <label class="switch">
-      <input type="checkbox" ng-model="sight">
+      <input type="checkbox" ng-model="type">
       <div class="slider round"></div>
     </label>
     Plant </br> </br>
-    <div ng-show="sight" class="form-group">
+    <div ng-show="type === Types.ANIMAL" class="form-group">
       <label for="sightingsAnimalSelection">Animal Sighted</label>
       <select class="form-control" id="sightingsAnimalSelection">
         <option value="bear">
@@ -25,7 +25,7 @@
         </option>
       </select>
     </div>
-    <div ng-show="!sight" class="form-group">
+    <div ng-show="type === Types.PLANT" class="form-group">
       <label for="sightingsAnimalSelection">Plant Sighted</label>
       <select class="form-control" id="sightingsAnimalSelection">
         <option value="shrub">

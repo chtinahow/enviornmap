@@ -39,9 +39,9 @@
         </option>
       </select>
     </div>
-    <div class="form-group">
+    <div class="form-group" moment-picker="ctrl.timepicker" format="HH:mm">
       <label for="sightingsTime">Time of Sighting</label>
-      <input type="datetime-local" class="form-control" id="sightingsTime" required />
+      <input placeholder="Select a time" ng-model="ctrl.timepicker"class="form-control" id="sightingsTime" required />
     </div>
     <div class="form-group">
       <label for="sightingsLocation">Location of Sighting</label>

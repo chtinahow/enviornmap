@@ -1,0 +1,31 @@
+<nav class="nav">
+  <ul>
+    <li><a ng-class="{active: isActiveSection('park')}" href="#park">Park</a></li>
+    <li><a ng-class="{active: isActiveSection('map')}" href="#map">Map</a></li>
+    <li><a ng-class="{active: isActiveSection('camping')}" href="#camping">Camping</a></li>
+    <li><a ng-class="{active: isActiveSectionPrefix('nature')}" href="#nature">Nature Info</a>
+      <div class="nested-ul">
+        <ul>
+          <li><a ng-class="{active: isActiveSection('nature-animals')}" href="#nature/animals">Animals</a></li>
+          <li><a ng-class="{active: isActiveSection('nature-plants')}" href="#nature/plants">Plants</a></li>
+          <li><a ng-class="{active: isActiveSection('nature-landmarks')}" href="#nature/landmarks">Landmarks</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a ng-class="{active: isActiveSection('events')}" href="#events">Events</a></li>
+    <li><a ng-class="{active: isActiveSection('sightings')}" href="#sightings">Sightings</a></li>
+  </ul>
+  <div id="bottom-content">
+    <img class="logo" src="images/logo.png" />
+    <h2 class="side-address-head">Mailing Address</h2>
+    <p class="side-address-copy">
+      P.O. Box 168 <br />
+      Yellowstone National Park, WY 82190-0168
+    </p>
+    <h2 class="side-address-head">Phone</h2>
+    <p class="side-address-copy">
+      (307) 344-7381 <br /><br />
+      Recorded information. For road and weather information, please dial:<br  /> (307) 344-2117.
+    </p>
+  </div>
+</nav>

@@ -4,17 +4,23 @@
     "images": [ { "url": "events/images/special_events/100_years.jpg",
 		  "src_url": "https://nz.usembassy.gov/wp-content/uploads/sites/13/2016/01/100years750.jpg" } ],
     "date": "August 25th to November 25th"
+    ,"source":  "https://www.nationalparks.org/our-work/campaigns-initiatives/national-park-service-centennial"
+    ,"description": "Celebrate the hundredth year anniversary of the national park service! Contains several mini-events, speakers, performances, and shows."
   },
   {
     "name": "Veteran's Day Free Admission!",
     "images": [ { "url": "events/images/special_events/veterans_day.jpg",
 		  "src_url": "https://cdn4.dogonews.com/images/fec30948-adbb-4ba2-be22-13f629de5d1e/veterans-day-image.jpg" } ],
     "date": "November 11th"
+    ,"source": "https://www.nps.gov/planyourvisit/fee-free-parks.htm"
+    ,"description": "Free admission on this national holiday!"
   },
   {
     "name": "Yellowstone Ski Festival!",
     "images": [ { "url": "events/images/special_events/ski.jpg",
 		  "src_url": "http://www.skirunbikemt.com/uploads/3/7/6/9/37692819/2900204.jpg?250" } ],
     "date": "December 15th - December 31st"
+    ,"source": "http://www.skirunbikemt.com/yellowstone-ski-festival.html"
+    ,"description": "Come to yellowstone for the Ski Festival! Ski with thousands of other festival-goers, from beginner to expert! Get coaching from ski experts, ski with your friends, and have a great time!"
   }
 ]

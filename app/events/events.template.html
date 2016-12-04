@@ -28,6 +28,7 @@
       <br>
       {{event.description}}
       <br>
+      <a ng-href={{event.source}}>Learn More</a>
       <div ng-repeat="image in event.images">
         <figure>
           <img class = "eventImage" ng-src="{{image.url}}" />

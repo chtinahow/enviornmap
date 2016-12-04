@@ -40,16 +40,12 @@
       </select>
     </div>
     <div class="form-group">
-      <label for="sightingsLatitude">Latitude</label>
-      <input type="number" class="form-control" id="sightingsLatitude" />
+      <label for="sightingsLocation">Location of Sighting</label>
+      <leaflet id="sightingsLocation" lf-center="mapCenter" markers="markers" width="100%" height="500px"></leaflet>
     </div>
-    <div class="form-group">
-      <label for="sightingsLongitude">Longitude</label>
-      <input type="number" class="form-control" id="sightingsLongitude" />
-    </div>
-    <div class="form-group">
+    <div class="form-group" moment-picker="ctrl.timepicker" format="HH:mm">
       <label for="sightingsTime">Time of Sighting</label>
-      <input type="datetime-local" class="form-control" id="sightingsTime" />
+      <input placeholder="Select a time" ng-model="ctrl.timepicker"class="form-control" id="sightingsTime" required />
     </div>
     <button type="submit" class="btn btn-default">Submit Sighting</button>
   </form>

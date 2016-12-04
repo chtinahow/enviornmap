@@ -1,6 +1,7 @@
 'use strict';
 
 var environmap = angular.module('environmap', [
+  'moment-picker',
   'ngRoute',
   'park',
   'sightings',
@@ -9,6 +10,7 @@ var environmap = angular.module('environmap', [
   'map',
   'nature',
   'nav'
+
 ]);
 
 environmap.config(['$routeProvider', function($routeProvider) {
@@ -26,7 +28,7 @@ environmap.config(['$routeProvider', function($routeProvider) {
     .when('/camping', {
       templateUrl: 'camping/camping.template.html',
       controller: 'campingController as camping',
-      activeSection: 'camping'  
+      activeSection: 'camping'
     })
     .when('/nature', {
       redirectTo: '/nature/animals'

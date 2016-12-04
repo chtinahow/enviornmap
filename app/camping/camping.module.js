@@ -27,5 +27,4 @@ camping.controller('campingController', ['$scope', function($scope) {
       return alert.id != alertID;
     });
   };
-
 }]);

@@ -2,13 +2,15 @@
   {
     "name": "Mule Deer",
     "images": [ { "url": "nature/animals/images/mule_deer_male.jpg",
-		  "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-male.jpg" },
-		{ "url": "nature/animals/images/mule_deer_female.jpg",
-		  "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-female.jpg" } ]
+		  "src_url": "https://en.wikipedia.org/wiki/File:2012-mule-deer-male.jpg" }]
+    ,"description": "Mule Deer have large ears that move constantly and independently, from whence they get their name. They do not run as other deer, but have a peculiar and distinctive bounding leap (stotting) over distances up to 8 yards, with all 4 feet coming down together. In this fashion, they can reach a speed of 45 m.p.h. for short periods. This stocky deer with sturdy legs is 4 to 6-1/2 feet in length and 3 to 3-1/2 feet high at the shoulder. During the summer, the coat on its upper body is yellow- or reddish-brown, while in winter more gray. The throat patch, rump patch, inside ears and inside legs are white with lower portions running cream to tan. A dark V-shaped mark, extending from a point between the eyes upward and laterally is characteristic of all Mule Deer but is more conspicuous in males."
+    ,"source" : "http://www.desertusa.com/animals/mule-deer.html"
   },
   {
     "name": "Yellow-Bellied Marmot",
     "images": [ { "url": "nature/animals/images/yellow_bellied_marmot.jpg",
 		  "src_url": "https://en.wikipedia.org/wiki/File:Marmota_flaviventris_%28Yellow_Bellied_Marmot%29,_Yosemite_NP_-_Diliff.jpg" } ]
+    ,"description": "Marmots are large burrowing rodents, about the size of a housecat, found in the Northern Hemisphere. Yellow-bellied Marmots are mammals with grizzled brownish fur, a yellow belly, and whitish spot between eyes. They have small round ears, a short white muzzle and black nose. The body is heavy-set with short legs and a furry reddish-brown tail. ellow-bellied marmots range from southwestern Canada throughout the western United States including the Rockies, Sierra Nevada and intermountain west. They typically live in open habitats such as steppes, alpine meadows, pastures, gravel-covered fields and forest edge. They dig their burrows in open, grassy or herb-covered slopes."
+    ,"source" : "http://naturemappingfoundation.org/natmap/facts/yellow-bellied_marmot_712.html"
   }
 ]

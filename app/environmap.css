@@ -28,6 +28,13 @@ body {
   height: auto;
 }
 
+.natureImage{
+  max-width: 75%;
+}
+
+.natureData{
+  width: 75%;
+}
 
 
 .nested-ul {

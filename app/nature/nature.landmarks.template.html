@@ -1,12 +1,17 @@
 <div class="main-content">
+  <h1><b>Landmarks</b></h1>
   <div ng-repeat="landmark in controller.landmarks">
-    <h1>{{landmark.name}}</h1>
+    <h2>{{landmark.name}}</h2>
     <div ng-repeat="image in landmark.images">
       <figure>
-        <img ng-src="{{image.url}}" />
+        <img class = "natureImage" ng-src="{{image.url}}" />
         <figcaption>Source: <a href="{{image.src_url}}">{{image.src_url}}</a></figcaption>
       </figure>
     </div>
+    <br>
+    <div class = "natureData">
     <p>{{landmark.description}}</p>
+    <a ng-href={{landmark.source}}>Learn More</a>
+    </div>
   </div>
 </div>

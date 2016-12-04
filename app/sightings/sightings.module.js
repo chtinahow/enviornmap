@@ -11,6 +11,22 @@ sightings.controller('sightingsController', ['$scope', function($scope) {
   };
   $scope.type = $scope.Types.ANIMAL;
 
+  $scope.sighting = {
+    lat: 44.4270,
+    lng: -110.5880,
+    message: "Drag me to the sighting location",
+    focus: true,
+    draggable: true
+  };
+
+  $scope.markers = [$scope.sighting];
+
+  $scope.mapCenter = {
+    lat: $scope.sighting.lat,
+    lng: $scope.sighting.lng,
+    zoom: 10
+  };
+
   $scope.onSubmitSighting = function() {
     var msg;
     var type;

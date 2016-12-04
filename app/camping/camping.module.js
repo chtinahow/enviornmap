@@ -1,6 +1,8 @@
-var campingInfoController = angular.module('campingInfoController', []);
+'use strict';
 
-campingInfoController.controller('campingController', ['$scope', function($scope) {
+var camping = angular.module('camping', []);
+
+camping.controller('campingController', ['$scope', function($scope) {
   $scope.alerts = [];
   var nextAlertID = 0;
   this.submitReservationSuccess = false;
@@ -24,5 +26,5 @@ campingInfoController.controller('campingController', ['$scope', function($scope
     $scope.alerts = $scope.alerts.filter(function(alert) {
       return alert.id != alertID;
     });
-  }
+  };
 }]);

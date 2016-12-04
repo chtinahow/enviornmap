@@ -1,5 +1,5 @@
 <div class="main-content">
-  <img ng-src="content/camping/campgrounds.png"  />
+  <img ng-src="camping/images/campgrounds.png"  />
   <div class="alert" ng-class="'alert-' + alert.type" role="alert" ng-repeat="alert in alerts">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="onCloseAlert(alert.id)"><span aria-hidden="true">&times;</span></button>
     {{alert.msg}}
@@ -23,7 +23,6 @@
     it is for hard-sided vehicles only (no tents or tent-trailers are allowed).</li>
   <li>Learn more about backpacking in the park on our Backcountry Camping and Hiking page.</li>
   <li>For information on camping outside the park, check with the local chamber of commerce for each city on our Nearby Attractions page.</li>
-  <div>
 
   <form ng-submit="onSubmitReservation()">
     <div class="form-group">

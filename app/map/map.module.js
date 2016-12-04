@@ -1,12 +1,14 @@
-var parkMapController = angular.module('parkMapController', ['ui-leaflet']);
+'use strict';
 
-parkMapController.controller('mapController', ['$scope', function($scope) {
+var map = angular.module('map', ['ui-leaflet']);
+
+map.controller('mapController', ['$scope', function($scope) {
   var abstractDefaultIcon = {
     iconSize: [32,37]
   };
 
   var animalIcon = angular.copy(abstractDefaultIcon);
-  animalIcon.iconUrl = "icons/deer.png";
+  animalIcon.iconUrl = "map/icons/deer.png";
 
   var deerMarker1 = {
     lat: 44.4270,

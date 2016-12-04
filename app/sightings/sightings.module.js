@@ -1,6 +1,8 @@
-var parkSightingsController = angular.module('parkSightingsController', []);
+'use strict';
 
-parkSightingsController.controller('sightingsController', ['$scope', function($scope) {
+var sightings = angular.module('sightings', []);
+
+sightings.controller('sightingsController', ['$scope', function($scope) {
   $scope.alerts = [];
   var nextAlertID = 0;
   $scope.Types = {
@@ -27,5 +29,5 @@ parkSightingsController.controller('sightingsController', ['$scope', function($s
     $scope.alerts = $scope.alerts.filter(function(alert) {
       return alert.id != alertID;
     });
-  }
+  };
 }]);

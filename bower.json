@@ -9,6 +9,8 @@
     "angular": "1.5.x",
     "angular-route": "1.5.x",
     "bootstrap": "3.3.x",
-    "ui-leaflet": "2.0.x"
+    "ui-leaflet": "2.0.x",
+    "momentjs": "2.17.x"
+
   }
 }

@@ -27,6 +27,11 @@ body{
   height: auto;
 }
 
+.campData{
+  width:90%;
+}
+
+
 .natureImage {
   max-width: 75%;
 }

@@ -4,16 +4,14 @@
     <h2>{{animal.name}}</h2>
     <div ng-repeat="image in animal.images">
       <figure>
-        <img class = "natureImage" ng-src="{{image.url}}" />
+        <img class="natureImage" ng-src="{{image.url}}" />
         <figcaption>Source: <a href="{{image.src_url}}">{{image.src_url}}</a></figcaption>
       </figure>
     </div>
     <br>
-
-    <div class = "natureData">
-    <p>{{animal.description}}</p>
-    <a ng-href={{animal.source}}>Learn More</a>
+    <div class="natureData">
+      <p>{{animal.description}}</p>
+      <a ng-href={{animal.source}}>Learn More</a>
     </div>
-
   </div>
 </div>

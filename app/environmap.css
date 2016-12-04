@@ -12,30 +12,28 @@ body {
   margin-right: 20px;
 }
 
-.specialEvents{
+.specialEvents {
   float: left;
   width: 45%;
-
 }
 
-.regularEvents{
+.regularEvents {
   float:right;
   width: 45%;
 }
 
-.eventImage{
+.eventImage {
   width: 90%;
   height: auto;
 }
 
-.natureImage{
+.natureImage {
   max-width: 75%;
 }
 
-.natureData{
+.natureData {
   width: 75%;
 }
-
 
 .nested-ul {
   display: none;

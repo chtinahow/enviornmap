@@ -3,18 +3,24 @@
     "name": "Park Tour",
     "images": [ { "url": "events/images/regular_events/tour.jpg",
 		  "src_url": "http://www.austinadventures.com/assets/5943356180_c072d1778a.jpg" } ],
-    "date": "M/W/F"
+    "date": "M/W/F",
+    "description": "A park tour for new and old visitors alike. This tour will showcase most of Yellowstone's attractions and will specifically include a visit to several famous geisers.",
+    "source": ""
   },
   {
     "name": "Cowboy Show",
     "images": [ { "url": "events/images/regular_events/cowboy.jpg",
 		  "src_url": "http://d1njyp8tsu122i.cloudfront.net/wp-content/uploads/Cowboy-music_DP_680-612x353.jpg" } ],
-    "date": "T/Th"
+    "date": "T/Th",
+    "description": "Yellowstone's cowboy show is a a regional tradition, with several themed shows taking place throughout the day. Watch two cowboys in a traditional standoff, listen to traditional cowboy music, and eat traditional cowboy food.",
+    "source": ""
   },
   {
     "name": "Animal Habitat Presentation",
     "images": [ { "url": "events/images/regular_events/animal_habitat.jpg",
 		  "src_url": "http://www.nathab.com/uploaded-files/carousels/TRIPS/Classic-Yellowstone/US-National-Parks-Classic-Yellowstone-1-mountains.jpg" } ],
-    "date": "F"
+    "date": "F",
+    "description": "A tour that showcases the habitats of the animals in Yellowstone.",
+    "source": ""
   }
 ]

@@ -3,12 +3,14 @@
     "name": "Ross's Bentgrass",
     "description": "Yellowstone's geothermally influenced plant communities contain species that must be able to tolerate awide range of conditions. Although most of these species are widespread in range and occur at diverse elevations, not all of them are common. A unique grass of the geyser basins is Ross's bentgrass (Agrostis rossiae). This species is highly restricted in range, growing in \"vapor dominated\" sites in the thermal areas, such as crack systems, the walls of thermal springs, or geothermally influenced depressions. Together, the widespread species and the local endemic form an interesting plant community in geothermal areas.",
     "images": [ { "url": "nature/plants/images/ross_bentgrass.jpg",
-		  "src_url": "https://www.nps.gov/yell/learn/nature/images/Ross17504_rossbentgrass.jpg" } ]
+		  "src_url": "https://www.nps.gov/yell/learn/nature/images/Ross17504_rossbentgrass.jpg" } ],
+    "source": "https://www.nps.gov/yell/learn/nature/bentgrass.htm"
   },
   {
     "name": "Yellowstone Sand Verbena",
     "description": "Yellowstone sand verbena (Abronia ammophila) occurs along the shore of Yellowstone Lake. Taxonomists debate the relationship of this population of sand verbena to other sand verbenas. It may be distinct at the subspecific level, and is certainly reproductively isolated from the closest sand verbena populations in the Bighorn Basin of Wyoming east of the park. The presence of a sand verbena at 7,700 feet elevation in the northern Rockies is unexpected, as most members of this North American genus occur in the Southwest or along the Pacific Coast. One speculation by botanists is that the warmth provided by the geothermal activity in the area enabled a genus which had evolved in a warmer climate to gradually adapt to conditions in Yellowstone. Today, Yellowstone sand verbena tolerates the long, cold winters and uses the brief summer to bloom and reproduce.",
     "images": [ { "url": "nature/plants/images/yellowstone_sand_verbena.jpg",
-		  "src_url": "https://www.nps.gov/yell/learn/nature/images/SandVerbena16600_yellowstonesandverbena.jpg" } ]
+		  "src_url": "https://www.nps.gov/yell/learn/nature/images/SandVerbena16600_yellowstonesandverbena.jpg" } ],
+    "source": "https://www.nps.gov/yell/learn/nature/verbena.htm"
   }
 ]

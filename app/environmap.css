@@ -11,6 +11,30 @@ body {
   margin-left: 325px;
   margin-right: 20px;
 }
+
+.specialEvents {
+  float: left;
+  width: 45%;
+}
+
+.regularEvents {
+  float:right;
+  width: 45%;
+}
+
+.eventImage {
+  width: 90%;
+  height: auto;
+}
+
+.natureImage {
+  max-width: 75%;
+}
+
+.natureData {
+  width: 75%;
+}
+
 .nested-ul {
   display: none;
   background-color: white;

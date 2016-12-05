@@ -1,5 +1,4 @@
 <div class="main-content">
-  <img ng-src="camping/images/campgrounds.png"  />
   <h2>Camping Information</h2>
   <li>Be sure to check for opening and closing dates for facilities inside the park.</li>
   <li>Make your reservations early!</li>
@@ -31,20 +30,10 @@
     </div>
     <div class="form-group">
       <label for="campingReservationSiteSelection">Camping Site</label>
-      <select class="form-control" id="campingReservationSiteSelection">
-        <option value="A-1">
-          Madison Junction - 1
-        </option>
-        <option value="A-2">
-          Madison Junction - 2
-        </option>
-        <option value="A-5">
-          Madison Junction - 5
-        </option>
-        <option value="B-7">
-          Lewis Lake -7
-        </option>
+      <select class="form-control" id="campingReservationSiteSelection" ng-model="campSite" ng-change="onCampSiteChange()">
+	<option ng-repeat="campSiteMarker in campSiteMarkers" value="{{campSiteMarker.optionValue}}">{{campSiteMarker.message}}</option>
       </select>
+      <leaflet class="form-control" lf-center="mapCenter" markers="campSiteMarkers" width="100%" height="500px"></leaflet>
     </div>
     <div class="form-group" moment-picker="ctrl.datepicker" format="YYYY-MM-DD">
       <label for="datetimepicker">From</label>
